@@ -1,5 +1,5 @@
 var config = {
-    lang: 'nl',
+    lang: 'en',
     time: {
         timeFormat: 12,
         displaySeconds: true,
@@ -9,11 +9,11 @@ var config = {
         //change weather params here:
         //units: metric or imperial
         params: {
-            q: 'Baarn,Netherlands',
-            units: 'metric',
+            q: 'Tucson, Arizona',
+            units: 'imperial',
             // if you want a different lang for the weather that what is set above, change it here
-            lang: 'nl',
-            APPID: 'YOUR_FREE_OPENWEATHER_API_KEY'
+            lang: 'en',
+            APPID: 'c53164b1f3f475688174dc00fe8c7686'
         }
     },
     compliments: {
@@ -46,7 +46,7 @@ var config = {
 		},
 		{
 			symbol: 'soccer-ball-o',
-			url: 'https://www.google.com/calendar/ical/akvbisn5iha43idv0ktdalnor4%40group.calendar.google.com/public/basic.ics',
+			url: '',
 		},
 		// {
 			// symbol: 'mars',
@@ -63,6 +63,6 @@ var config = {
 		]
     },
     news: {
-        feed: 'http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml'
+        feed: 'http://feeds.feedburner.com/breitbart'
     }
 }
